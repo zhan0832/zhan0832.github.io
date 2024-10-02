@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week4</title>
+    <style>
+        table, td, th{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Week 4 Learning</h1>
+    </header>
+    <main>
+        <!-- learning about img tag-->
+        <h2>Image tag example</h2>
+        <img src="./images/coffee-shop.jpg" alt="coffee cup with coffee beans" width="500">
+        <a href="#cakes">Jump to cakes menu</a>
+        <img src="./images/coffee-shop.jpg" alt="coffee cup with coffee beans" width="500">
+        <!--if an image is decorative keep the alt tag empty alt=""-->
+
+        <!--learning about a tags-->
+        <h2>Link tag example</h2>
+        <p> Here is a link to vist<a href="Https://www.google.com" target= "-blank" > Google Homepage </a></p>
+        <a href="./thanks.html" >Thank you page.</a>
+        
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis at,
+            dignissimos ratione doloremque rerum non rem cum laudantium quia consectetur,
+            saepe perferendis aperiam iste reprehenderit fugit ipsa, excepturi impedit.
+            Saepe.
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis at,
+            dignissimos ratione doloremque rerum non rem cum laudantium quia consectetur,
+            saepe perferendis aperiam iste reprehenderit fugit ipsa, excepturi impedit.
+            Saepe.
+        </p>
+        <ul id="cakes">
+        <li>Red Velvet</li>
+        <li>Tiramisu</li>
+        <li>Black Forest</li>
+        </ul>
+        <!-- tables in html-->
+        <h2> Samples HTML Tables </h2>
+        <table>
+            <caption>Student grade imformation</caption>
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Student Name</th>
+                    <th>Grade</th>                   
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jhon Smith</td>
+                    <td>Web dev 1</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Mel</td>
+                    <td>Web dev 1</td>
+                    <td>A+</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Mering Cells</h2>
+        <table>
+            <thead>
+              <tr>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Scores</th>
+              </tr>
+              <tr>
+                <th>Maths</th>
+                <th>English</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Bob</td>
+                <td>10/10</td>
+                <td>9/10</td>
+              </tr>
+              <tr>
+                <td>Fran</td>
+                <td>8/10</td>
+                <td>10/10</td>
+              </tr>
+            </tbody>
+          </table>
+          <h2>Fake Data</h2>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="2">Days</th>
+                <th colspan="2">Month</th>
+              </tr>
+              <tr>
+                <th>Mon</th>
+                <th>Wed</th>
+                <th>Jan</th>
+                <th>Sep</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>3</td>
+                <td>2</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>9</td>
+                <td>8</td>
+                <td>7</td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- form elements-->
+           <h2>HTML Form Elements</h2>
+           <form action="./thanks.html" method="get">
+            <label for="fullmane">Name:</label>
+            <input id="fullmane" type="text" placeholder="John" name="1" required>
+            <label for="age">Age:</label>
+            <input id="age" type="number" min="0" max="20" step="2" name="age">
+            <label for="qu">Quality</label>
+            <input id="qu" type="text" pattern="">
+            <label for="message">Your Message</label>
+            <textarea id="message"></textarea>
+            <button type="submit">Send</button>
+           </form>
+    </main>
+</body>
+</html>
