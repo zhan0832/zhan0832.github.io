@@ -58,7 +58,8 @@ a:link {
   }
   a:hover{
     color: blueviolet;
-    outline: burlywood;
+  }
+  a:focus{outline: burlywood 2px;
   }
   span{
     color: blue;
