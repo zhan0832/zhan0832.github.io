@@ -11,17 +11,19 @@ header, footer{
 #my-image{
     box-shadow: 0px 0px 2px 1px black;
 }
-ul{
+.hobbies {
     list-style-type: square;
+    li:nth-child(odd){
+    background-color: rgb(213, 213, 232);}
 }
-li:nth-child(odd){
-    background-color: rgb(213, 213, 232);
+nav ul{
+    list-style-type: none;
 }
-a{
+nav a{
     text-decoration: none;
     background-color: blanchedalmond;
     border: 1px solid;
 }
-a:hover{
+nav a:hover, nav a:focus{
     background-color: rgb(202, 178, 224);
 }
