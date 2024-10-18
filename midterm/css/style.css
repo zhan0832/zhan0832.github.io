@@ -45,7 +45,7 @@ nav ul li:last-child{
     border-right: none;
 }
 nav ul li a{
-    display:inline-flex;
+    display:flex;
     color: #333f;
     font-size: 1.6rem;
     font-weight: 400;
