@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    font-size: 16px;
+}
+body{
+    background-color: #aad4cf;
+    color: #333;
+    line-height: 1.5;
+    font-family: "Fira Sans", sans-serif;
+    padding: 0 14%;
+}
+.containter{
+    max-width: 90vw;
+}
+div {
+    background-color: #cee1df;
+}
+h1{ color: #fff;
+    padding: 8rem 0 4rem 0;
+    margin: 0;
+    text-align:center;
+    font-size: 3rem;
+    background-image: url("../images/lone-starfish-wide.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav ul{
+    margin: 0 4rem;
+    list-style:none;
+    padding: 0 1rem;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li a{
+    color: #333f;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-decoration:none;
+    border-left:solid #4a4b4b 2px;
+}
+    
+main, footer{
+    padding: 0 0.5rem;
+}
+.starfish-img {
+    float: left;
+    padding-right: 0.9rem;
+}
+
+h2{
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+.life {
+    font-size: 0.9rem;
+    margin-top: 0;
+}
+h3{
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.facts{
+    font-size: 0.8rem;
+    margin-top: 0;
+    padding-left: 1rem;
+}
+.facts li{
+    line-height: 1;
+}
+h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 0;
+
+}
+.form{
+    border: solid #333 1px;
+   
+    padding: 0 1rem;
+    font-size: 0.9rem;
+}
+.text label{
+    display: block;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+}
+.text input {  
+    min-width: 100%;
+    border: solid #c7c4c4 0.5px;
+    outline: none;
+}
+textarea{
+    min-height: 6em;
+    min-width: 100%;
+    border: solid #c7c4c4 0.5px;
+    outline: none;
+}
+h5{
+    font-size: 0.9rem;
+    margin: 1rem 0rem;
+    padding-bottom: 0;
+}
+.check label{
+    display: inline-block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+button{
+    margin: 1rem 0;
+}
+footer{
+    font-size: 0.6rem;
+    font-weight: 500;
+    text-align: right;
+    padding: 0.4rem 0.8rem;
+} 
