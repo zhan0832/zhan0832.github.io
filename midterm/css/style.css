@@ -15,6 +15,7 @@ body{
 div {
     background-color: #cee1df;
 }
+/* Position the site title on top of the image */
 h1{ color: #fff;
     padding: 8rem 0 4rem 0;
     margin: 0;
@@ -41,6 +42,7 @@ nav ul{
     justify-content: space-around;
     border-right: 1px solid #333;
 }
+/* Border line */
 nav ul li:last-child{
     border-right: none;
 }
@@ -57,6 +59,7 @@ nav ul li a{
 main, footer{
     padding: 0 0.5rem;
 }
+/* Text wrapping around the image */
 .starfish-img {
     float: left;
     padding-right: 0.9rem;
