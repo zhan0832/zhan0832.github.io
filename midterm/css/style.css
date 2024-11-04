@@ -97,6 +97,7 @@ h2{
 }
 .facts li{
     line-height: 1;
+    list-style:disc;
 }
 h3{
     font-size: 1.4rem;
