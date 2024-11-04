@@ -16,15 +16,23 @@ div {
     background-color: #cee1df;
 }
 /* Position the site title on top of the image */
-h1{ color: #fff;
-    padding: 8rem 0 4rem 0;
-    margin: 0;
-    text-align:center;
-    font-size: 3rem;
-    background-image: url("../images/lone-starfish-wide.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.header{
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+}
+.header img{
+    width:100%;
+    display: block;
+}
+figcaption { 
+    color: #fff;
+    position: relative;
+    margin-top: -15vw;
+    line-height: 15vw;
+    font-size: 4rem;
+    white-space: nowrap; 
+    overflow: hidden; 
 }
 nav ul{
     display: flex;
@@ -66,7 +74,7 @@ main, footer{
     padding-right: 0.9rem;
 }
 
-h2{
+h1{
     font-size: 1.8rem;
     margin-bottom: 0;
     margin-top: 2rem;
@@ -76,7 +84,7 @@ h2{
     font-size: 0.9rem;
     margin-top: 0;
 }
-h3{
+h2{
     font-size: 1.4rem;
     margin-top: 2rem;
     margin-bottom: 0;
@@ -90,7 +98,7 @@ h3{
 .facts li{
     line-height: 1;
 }
-h4{
+h3{
     font-size: 1.4rem;
     font-weight: 500;
     margin-top: 2rem;
@@ -119,7 +127,7 @@ textarea{
     border: solid #c7c4c4 0.5px;
     outline: none;
 }
-h5{
+h4{
     font-size: 0.9rem;
     margin: 1rem 0rem;
     padding-bottom: 0;
