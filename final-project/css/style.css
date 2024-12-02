@@ -322,7 +322,7 @@ footer a{
     .contact-us{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 80px 1fr 1fr;
+        grid-template-rows: 12% 53% 35%;
         gap: 10px;
     }
     .contact-us .contact-box:nth-child(1) {
