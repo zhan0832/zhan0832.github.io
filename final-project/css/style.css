@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tiny5&display=swap');
+html{
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+*,
+*:after,
+*:before{
+    box-sizing: border-box
+}
+body{
+    line-height: 1.5;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both; 
+    }
+
+h1, h2, h3, h4{
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2.5em; 
+    padding-top: 10px;   
+}
+
+h3{
+    font-size: 1.5em;   
+}
+h4{
+    font-size: 1.0em; 
+}
+p{
+    font-size: 0.7em;
+}
+/* Max-width 1200px for screen */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+/* Style for navigation bar*/
+.navbar{
+    width: 100%;
+    background-color:#222;
+    padding: 10px;
+}
+.logo{
+    height: 100px;
+    background-color: #c78c06;
+}
+.list li{
+    text-align: center;
+    padding: 1rem ;
+}
+.list li a{
+    text-decoration: none;
+    color: #c78c06;
+    
+}
+.home{
+    width: 100%;
+    background-color: #c78c06;
+}
+#a{
+    color: #222;
+}
+/* Use css Flexbox property */
+.search{
+    display: flex; 
+    height: 1.8rem;
+}   
+.search input{
+    width: 100%;
+    
+}
+.search button{
+    color: #c78c06;
+    background-color: #222;
+    border-color: #c78c06;
+}
+/* Style for banner */
+.banner{
+    background: url(../images/main-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.banner-text{
+    background-color: rgba(2, 2, 2, 0.5); /* Semi-transparent overlay */
+    color: white;
+    text-align: left;
+    padding: 10px;
+    max-width: 760px;
+}
+.banner-text h1{
+    width: 80%;
+}
+/* Style for vision part */
+.vision-text{
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+.connect-button{
+    display: inline-block;
+    background-color: #c78c06;
+    color: #222;
+    text-decoration: none;
+    padding: 12px;
+    margin-top: 5px;
+}
+.box0{
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+
+/* Style for Our vision part */
+.banner-vision{
+    background-image: url(../images/vision.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.banner-vision a{
+    background-color:  rgba(2, 2, 2, 0.3);
+    border: solid 0.5px #c78c06;
+
+}
+.box-padding h4{
+    border-bottom: solid 2px #c78c06;
+}
+/* Style for our  services and our team part */
+.box{
+    background-color: #ffe6ac;
+    margin: 10px 0;
+}
+.box-padding{
+    padding: 10px;
+}
+.box img, .box0 img{
+    width: 100%;
+    padding-bottom: 0;
+}
+.arrow-button{
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin-top: 5px;
+}
+.team, .ourservices, .h2{
+    margin: 10px;
+}
+/* Style for contact part */
+.contact-us {
+    margin: 10px;
+}
+.form label{
+    display: block;
+}
+.form input{
+    width: 100%;
+}
+.form textarea{
+    width: 100%;
+    height: 80px;
+}
+.form button{
+    color: #c78c06;
+    background-color: #222;
+}
+  
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+table caption h3 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+thead th {
+    background-color: #ffe6ac; 
+    color: #222;
+    padding: 10px;
+    border: 1px solid #222; 
+    text-align: center; 
+}
+  
+tbody td {
+    padding: 10px;
+    border: 1px solid #222;
+    text-align: left; 
+}
+iframe{
+    width: 100%;
+    height: 300px;
+}
+footer{
+    background-color: #222;
+    color: #c78c06;
+    padding: 10px;
+}
+footer a{
+    color: #c78c06;
+}
+/* Min-width query for thr screen size of 760px and more */
+  @media screen and (min-width: 760px){
+    html{font-size: 18px;
+    }
+    /* Body 90% width for screen size of 760px and more */
+    .width, .box0, .vision-text, .h2{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .banner-text{
+        max-width: 90%;
+    }
+    /* Style for navigation bar for screen size of 760px and more*/
+    .list{
+        width: 65%;
+    }
+    .list li{
+        padding: 0.5rem;
+    }
+    .home{
+        width: 20%;
+    }
+    .logo{
+        display: flex;
+        height: 60px;
+    }
+    
+    /* Use CSS Flexbox properties for navbar */
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    .list ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .box0 img{
+        float: left;
+        width: 50%;
+        padding-right: 5px;
+    }
+    .box{
+        margin: 0 auto;
+    }
+    
+    /* Use CSS Grid properties for our serivices part */
+    .ourservices{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+    }
+    .ourservices .box:nth-child(1) {
+        grid-area: 1/1/2/4; /* Span across 3 columns */
+    }
+    .ourservices .box:nth-child(2) {
+        grid-area: 1/4/2/7; /* Span across 3 columns */
+    }
+    .ourservices .box:nth-child(3) {
+        grid-area: 2/1/3/3; /* Span across 2 columns */
+    }
+    .ourservices .box:nth-child(4) {
+        grid-area: 2/3/3/5; /* Span across 2 columns */
+    }
+    .ourservices .box:nth-child(5) {
+        grid-area: 2/5/3/7; /* Span across 2 columns */
+    }
+    
+    .ourservices .arrow-button{
+        width: 100%;
+        align-items: end;
+    }
+    
+    /* Change the layout to picture left/right and text right/left*/
+    .box .john{
+        float: left;
+        width: 50%;
+        margin-right: 5px;
+    }
+    .box .bob{
+        float: right;
+        width: 50%;
+    }
+    
+    
+    /* Use CSS Grid properties for contact us part */
+    .contact-us{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80px 1fr 1fr;
+        gap: 10px;
+    }
+    .contact-us .contact-box:nth-child(1) {
+        grid-area: 1/1/2/3;
+    }
+    .contact-us .contact-box:nth-child(2) {
+        grid-area: 2/1/2/2;
+    }
+    .contact-us .contact-box:nth-child(3) {
+        grid-area: 3/1/4/3;
+    }
+    .contact-us .contact-box:nth-child(4) {
+        grid-area: 2/2/3/3;
+    }
+    iframe{
+        width: 100%;
+        height: 280px;
+    }
+
+}
+    
+
+
