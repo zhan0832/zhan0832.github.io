@@ -147,6 +147,11 @@ p{
 .box-padding h4{
     border-bottom: solid 2px #c78c06;
 }
+/* About part */
+#about-us h2{
+    padding-top: 0;
+    margin: 8px 0;
+}
 /* Style for our  services and our team part */
 .box{
     background-color: #ffe6ac;
