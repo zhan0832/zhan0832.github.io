@@ -126,6 +126,9 @@ p{
 }
 
 /* Style for Our vision part */
+.vision-text h2{
+    font-size: 1.5em;
+}
 .banner-vision{
     background-image: url(../images/vision.jpg);
     background-size: cover;
