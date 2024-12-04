@@ -310,7 +310,7 @@ footer a{
         align-items: end;
     }
     
-    /* Change the layout to picture left/right and text right/left*/
+    /* Change the layout to picture left/right and text right/left with flexbox property*/
     .team .box, .team .boxbob{
         display:flex;   
     }
