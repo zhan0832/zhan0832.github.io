@@ -11,112 +11,120 @@
     <title>Final-project</title>
 </head>
 <body>
-    <div class="container">
+    <div>
         <header>
             <!-- Navigation bar -->
-            <div class="navbar width">
-                <div class="logo" ><img src="./images/logo.png" alt="logo"></div>
-                <nav class="list">
-                    <ul>
-                        <li class="home"><a id="a" href="#home">Home</a></li>
-                        <li><a href="#about-us">About Us</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#team">Team</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>  
-                <div class="search">
-                    <label for="search-input" class="sr-only">Search</label> <!-- Label added for accessibility -->
-                    <input id="search-input" type="text" placeholder="Search">
-                    <button>
-                    <i class="fa-solid fa-magnifying-glass"></i> <!-- Search icon -->
-                    </button>
-                </div>  
+            <div class="navbar">
+                <div class="container">
+                    <div class="logo" ><img src="./images/logo.png" alt="logo"></div>
+                    <nav class="list">
+                        <ul>
+                            <li class="nav-item"><a class="navLink" id="a" href="#home">Home</a></li>
+                            <li class="nav-item"><a href="#about-us">About Us</a></li>
+                            <li class="nav-item"><a href="#services">Services</a></li>
+                            <li class="nav-item"><a href="#team">Team</a></li>
+                            <li class="nav-item"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>  
+                    <div class="search">
+                        <label for="search-input" class="sr-only">Search</label> <!-- Label added for accessibility -->
+                        <input id="search-input" type="text" placeholder="Search">
+                        <button>
+                        <i class="fa-solid fa-magnifying-glass"></i> <!-- Search icon -->
+                        </button>
+                    </div> 
+                </div> 
             </div>
             <!-- Banner for the page -->
             <div class="banner">
                 <!-- <img src="./images/main-banner.jpg" alt="banner"> will use CSS style as background-->
-                <div class="banner-text width clearfix">
-                    <h1>Welcome to Three Star Media</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, nulla earum blanditiis porro architecto ipsum sequi, consequatur voluptatum modi nihil deleniti! Assumenda voluptatum, asperiores dolor quaerat eius labore aut enim.</p>
-                    <a href="#" class="connect-button">
-                    Connect with us
-                    <i class="fa-solid fa-caret-right"></i> <!-- Arrow symbol -->
-                    </a>
+                <div class="banner-text clearfix">
+                    <div class="container">
+                        <h1>Welcome to Three Star Media</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, nulla earum blanditiis porro architecto ipsum sequi, consequatur voluptatum modi nihil deleniti! Assumenda voluptatum, asperiores dolor quaerat eius labore aut enim.</p>
+                        <a href="#" class="connect-button">
+                        Connect with us
+                        <i class="fa-solid fa-caret-right"></i> <!-- Arrow symbol -->
+                        </a>
+                    </div>
                 </div>
             </div>
         </header>
         <main>
             <!-- About part -->
-            <section class="box0 clearfix " id="about-us">
-                <img src="./images/about-us.jpg" alt="about-us">
-                <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis, ipsam cumque.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis, ipsam ?</p>
+            <section class="box0 clearfix" id="about-us">
+                <div  class="container">
+                    <img src="./images/about-us.jpg" alt="about-us">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis, ipsam cumque.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis, ipsam ?</p>
+               </div>
             </section>
             <!-- Our services part -->
-            <h2 class="h2">Our Services</h2>
-            <section class="ourservices  width clearfix" id="services">
-                
-                <div class="box">
-                    <img src="./images/digital.jpg" alt="digital">
-                    <div class="box-padding">
-                        <h3>Didital Transformation</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis, ipsam cumque.</p>
-                        <a href="#" class="arrow-button">
-                        Digital Plans
-                        <i class="fa-solid fa-caret-right"></i> <!-- Arrow symbol -->
-                        </a>
+            <!-- <h2 class="h2">Our Services</h2> -->
+            <div class="container">
+                <h2 class="h2">Our Services</h2>
+                <section class="ourservices  width clearfix" id="services">
+                    <div class="box">
+                        <img src="./images/digital.jpg" alt="digital">
+                        <div class="box-padding">
+                            <h3>Digital Transformation</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis, ipsam cumque.</p>
+                            <a href="#" class="arrow-button">
+                            Digital Plans
+                            <i class="fa-solid fa-caret-right"></i> <!-- Arrow symbol -->
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="box">
-                    <img src="./images/marketing.jpg" alt="marketing">
-                    <div class="box-padding">
-                        <h3>Marketing</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis, ipsam cumque.</p>
-                        <a href="#" class="arrow-button">
-                        Marketing Plans
-                        <i class="fa-solid fa-caret-right"></i> <!-- Arrow symbol -->
-                        </a>
+                    <div class="box">
+                        <img src="./images/marketing.jpg" alt="marketing">
+                        <div class="box-padding">
+                            <h3>Marketing</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis, ipsam cumque.</p>
+                            <a href="#" class="arrow-button">
+                             Marketing Plans
+                            <i class="fa-solid fa-caret-right"></i> <!-- Arrow symbol -->
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="box">
-                    <img src="./images/video.jpg" alt="Vedio">
-                    <div class="box-padding">
-                        <h3>Video Production</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis?</p>
-                        <a href="#" class="arrow-button">
-                        Vedio Plans
-                        <i class="fa-solid fa-caret-right"></i> <!-- Arrow symbol -->
-                        </a>
+                    <div class="box">
+                        <img src="./images/video.jpg" alt="Vedio">
+                        <div class="box-padding">
+                            <h3>Video Production</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis?</p>
+                            <a href="#" class="arrow-button">
+                            Vedio Plans
+                            <i class="fa-solid fa-caret-right"></i> <!-- Arrow symbol -->
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="box">
-                    <img src="./images/web.jpg" alt="web">
-                    <div class="box-padding">
-                        <h3>Web Development</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis?</p>
-                        <a href="#" class="arrow-button">
-                        Web Plans
-                        <i class="fa-solid fa-caret-right"></i> <!-- Arrow symbol -->
-                        </a>
+                    <div class="box">
+                        <img src="./images/web.jpg" alt="web">
+                        <div class="box-padding">
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis?</p>
+                            <a href="#" class="arrow-button">
+                            Web Plans
+                            <i class="fa-solid fa-caret-right"></i> <!-- Arrow symbol -->
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="box">
-                    <img src="./images/print.jpg" alt="print">
-                    <div class="box-padding">
-                        <h3>Print</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis?</p>
-                        <a href="#" class="arrow-button">
-                        Print Plans
-                        <i class="fa-solid fa-caret-right"></i> <!-- Arrow symbol -->
-                        </a>
+                    <div class="box">
+                        <img src="./images/print.jpg" alt="print">
+                        <div class="box-padding">
+                            <h3>Print</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis?</p>
+                            <a href="#" class="arrow-button">
+                            Print Plans
+                            <i class="fa-solid fa-caret-right"></i> <!-- Arrow symbol -->
+                            </a>
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
             <section class="banner-vision">
                 <!-- <img src="./images/vision.jpg" alt="vision"> will use CSS style as background-->
-                 <div class="vision-text">
+                 <div class="vision-text container">
                     <h2>Our Vision</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi aspernatur velit beatae magni sed consequatur iure quo a assumenda. Explicabo et culpa laborum, non optio nulla! Reiciendis?</p>
                     <a href="#" class="arrow-button">
@@ -126,7 +134,7 @@
                 </div>
             </section>
             <!-- Our team part -->
-            <section class="team  width" id="team">
+            <section class="team container" id="team">
                 <h2>Our Team</h2>
                   
                 <div class="box  clearfix">
@@ -148,10 +156,10 @@
                 </div>
             </section>
            
-            <section class="contact-us  width">
+            <section class="contact-us container">
                 <h2>Contact Us</h2>
                 <!-- Contact forms -->
-                <div class="contact-box clearfix" id="contact">
+                <div class="contact-box" id="contact">
                     <h3>Send us a message</h3>
                     <form action="#" class="form">
                         <label for="fullname">Full Name</label>
@@ -166,7 +174,7 @@
                         <button type="submit">Send</button>
                     </form>
                 </div>
-                <div class=" contact-box table clearfix">
+                <div class=" contact-box table">
                     <table>
                         <caption><h3>Hours of operation</h3></caption>
                         <thead>
@@ -177,17 +185,17 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Monday-Friday</td>
+                                <td>Monday - Friday</td>
                                 <td>9 AM - 6 PM</td>
                             </tr>
                             <tr>
-                                <td>Saturday-Sunday</td>
+                                <td>Saturday - Sunday</td>
                                 <td>Closed</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div class="contact-box location clearfix">
+                <div class="contact-box location">
                     <h3>Location</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179721.90677854646!2d-76.04528609488766!3d45.264881626110814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1732080131721!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
@@ -195,8 +203,10 @@
         </main>
     
         <footer class="width">
-            <p>&copy; Copyright Three Star Media, 2020</p>
-            <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
+            <div class="container">
+                <p>&copy; Copyright Three Star Media, 2020</p>
+                <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
+            </div>
         </footer>    
     </div>
     <script src="https://kit.fontawesome.com/4bcc79392f.js" crossorigin="anonymous"></script>
