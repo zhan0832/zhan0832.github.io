@@ -19,65 +19,71 @@ body{
 
 h1, h2, h3, h4{
     font-weight: bold;
-    margin: 0.5em 0;
 }
 h1{
-    font-size: 3em;
+    font-size: 3.2em;
 }
 h2{
     font-size: 2.5em; 
-    padding-top: 10px;   
+    padding-top : 15px;   
 }
 
 h3{
-    font-size: 1.5em;   
+    font-size: 1.9em; 
+    margin: 8px 0;  
 }
 h4{
-    font-size: 1.0em; 
+    font-size: 1.2em; 
 }
 p{
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
-/* Max-width 1200px for screen */
-.container{
-    max-width: 1200px;
+.container{   
     margin: 0 auto;
-
+    justify-self: center;
+    padding: 10px;
 }
 /* Style for navigation bar*/
 .navbar{
     width: 100%;
     background-color:#222;
-    padding: 10px;
 }
 .logo{
     height: 100px;
     background-color: #c78c06;
 }
+
 .list li{
     text-align: center;
-    padding: 1rem ;
+    color: #c78c06; 
 }
 .list li a{
-    text-decoration: none;
-    color: #c78c06;
-    
-}
-.home{
+    display: inline-block;
+    padding: 1rem ;
     width: 100%;
-    background-color: #c78c06;
+    text-decoration: none;
 }
-#a{
+.nav-item{
+    width: 100%;
+}
+/* .navLink:hover, .navLink:focus{
+    background-color: #c78c06;
+    color: #222;
+} */
+.nav-item:hover, .nav-item:focus{
+    background-color: #c78c06;
     color: #222;
 }
+.nav-item a{
+    color: inherit;
+ }
 /* Use css Flexbox property */
 .search{
     display: flex; 
-    height: 1.8rem;
+    height: 2em;
 }   
 .search input{
-    width: 100%;
-    
+    width: 100%;  
 }
 .search button{
     color: #c78c06;
@@ -98,8 +104,7 @@ p{
 .banner-text{
     background-color: rgba(2, 2, 2, 0.5); /* Semi-transparent overlay */
     color: white;
-    text-align: left;
-    padding: 10px;
+    text-align: left;   
     max-width: 760px;
 }
 .banner-text h1{
@@ -116,17 +121,13 @@ p{
     background-color: #c78c06;
     color: #222;
     text-decoration: none;
-    padding: 12px;
+    padding: 20px;
     margin-top: 5px;
 }
-.box0{
-    background-color: #ffe6ac;
-    padding: 10px;
-}
-
 /* Style for Our vision part */
 .vision-text h2{
     font-size: 1.5em;
+    padding: 10px 0;
 }
 .banner-vision{
     background-image: url(../images/vision.jpg);
@@ -137,47 +138,53 @@ p{
     display: flex;
     align-items: center;
 }
-
 .banner-vision a{
     background-color:  rgba(2, 2, 2, 0.3);
     border: solid 0.5px #c78c06;
-
 }
 .box-padding h4{
     border-bottom: solid 2px #c78c06;
 }
 /* About part */
+.box0{
+    background-color: #ffe6ac;
+    padding-bottom: 15px;
+}
 #about-us h2{
-    padding-top: 0;
-    margin: 8px 0;
+    padding: 0;
+    margin: 5px 0;
+}
+#about-us p{
+    margin-bottom: 10px;
+}
+i{
+    padding-left: 8px;
 }
 /* Style for our  services and our team part */
 .box{
     background-color: #ffe6ac;
     margin: 10px 0;
 }
+a{
+    justify-content: center;
+}
 .box-padding{
     padding: 10px;
 }
 .box img, .box0 img{
-    width: 100%;
-    padding-bottom: 0;
+    width: 100%;   
 }
 .arrow-button{
     display: inline-block;
     background-color: #222;
     color: white;
     text-decoration: none;
-    padding: 12px;
+    padding: 16px;
     margin-top: 5px;
-}
-.team, .ourservices, .h2{
-    margin: 10px;
+    text-align: center;
 }
 /* Style for contact part */
-.contact-us {
-    margin: 10px;
-}
+
 .form label{
     display: block;
 }
@@ -234,45 +241,40 @@ footer a{
   @media screen and (min-width: 760px){
     html{font-size: 18px;
     }
-    /* Body 90% width for screen size of 760px and more */
-    .width, .box0, .vision-text, .h2{
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    .banner-text{
-        max-width: 90%;
+    /* Max-width 1200px for screen */
+    .container{
+        max-width: 1200px;
     }
     /* Style for navigation bar for screen size of 760px and more*/
     .list{
         width: 65%;
     }
-    .list li{
-        padding: 0.5rem;
-    }
-    .home{
-        width: 20%;
-    }
     .logo{
         display: flex;
-        height: 60px;
+        height: 70px;
     }
-    
+    .banner-text{
+        max-width: 90%;
+    }
+    .banner h1{
+        max-width: 60%;
+    }    
     /* Use CSS Flexbox properties for navbar */
-    .navbar{
+    .navbar .container{
         display: flex;
         justify-content: space-between;
-        align-items: center;
-       
+        align-items: center;  
     }
     .list ul{
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+    /* About us part */
     .box0 img{
         float: left;
         width: 50%;
-        padding-right: 5px;
+        margin-right: 5px;
     }
     .box{
         margin: 0 auto;
