@@ -141,7 +141,7 @@ p{
     background-color:  rgba(2, 2, 2, 0.3);
     border: solid 0.5px #c78c06;
 }
-.box-padding h4{
+.box-padding>h4{
     border-bottom: solid 2px #c78c06;
 }
 /* About part */
@@ -311,17 +311,18 @@ footer a{
     }
     
     /* Change the layout to picture left/right and text right/left*/
-    .box .john{
-        float: left;
+    .team .box, .team .boxbob{
+        display:flex;   
+    }
+    .team .boxbob{
+        flex-direction: row-reverse;
+    }
+    .box .john{ 
         width: 50%;
-        margin-right: 5px;
     }
     .box .bob{
-        float: right;
         width: 50%;
     }
-    
-    
     /* Use CSS Grid properties for contact us part */
     .contact-us{
         display: grid;
