@@ -40,7 +40,6 @@ p{
 }
 .container{   
     margin: 0 auto;
-    justify-self: center;
     padding: 10px;
 }
 /* Style for navigation bar*/
@@ -183,6 +182,9 @@ a{
     margin-top: 5px;
     text-align: center;
 }
+.team h3{
+    margin-bottom: 0;
+}
 /* Style for contact part */
 
 .form label{
@@ -206,10 +208,9 @@ table {
     border-collapse: collapse;
     text-align: left;
 }
-table caption h3 {
+table caption h3{
     text-align: left;
     margin-bottom: 10px;
-    color: #222;
 }
 
 thead th {
@@ -218,12 +219,14 @@ thead th {
     padding: 10px;
     border: 1px solid #222; 
     text-align: center; 
+    width: 50%;
 }
   
 tbody td {
     padding: 10px;
     border: 1px solid #222;
     text-align: left; 
+    width: 50%;
 }
 iframe{
     width: 100%;
