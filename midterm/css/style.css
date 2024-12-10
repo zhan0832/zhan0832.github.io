@@ -9,6 +9,7 @@ body{
     font-family: "Fira Sans", sans-serif;
     padding: 0 14%;
 }
+/* max-width */
 .containter{
     max-width: 90vw;
 }
