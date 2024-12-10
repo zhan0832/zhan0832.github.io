@@ -22,6 +22,7 @@ div {
     position: relative;
     text-align: center;
 }
+/* IMG width */
 .header img{
     width:100%;
     display: block;
